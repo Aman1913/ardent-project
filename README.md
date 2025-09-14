@@ -1,29 +1,152 @@
-# 🛒 MERN E-Commerce Website
+# 🛍️ MERN E-Commerce Project
 
-Welcome to the **MERN E-Commerce Website**! This project is a feature-rich e-commerce application built using the powerful MERN stack, complete with an intuitive user-facing store and an all-encompassing admin dashboard.
+![MERN Stack](https://img.shields.io/badge/Stack-MongoDB%20%7C%20Express%20%7C%20React%20%7C%20Node.js-green)
 
-## ✨ Features
+A **MERN-based E-commerce web application** developed as part of our **Industrial Training Project**.  
+The project provides a complete shopping experience for customers along with an admin dashboard for management.
 
-### 🌟 User Frontend:
+---
 
-- **🔒 Secure Authentication**: Register, login, and manage user profiles effortlessly.
-- **🛍️ Product Exploration**: Browse and search through an extensive product catalog with advanced filtering options.
-- **🛒 Shopping Cart**: Add products to your cart, modify quantities, and proceed to a hassle-free checkout.
-- **💳 Seamless Payments**: Make secure payments using Stripe integration.
-- **📦 Order Management**: View order history, track deliveries, and manage returns with ease.
+## 🚀 Features
 
-### ⚙️ Admin Dashboard:
+### Customer Side
+- User registration and login
+- Browse and search products
+- Add products to cart
+- Place orders and checkout
 
-- **🛠️ Product Management**: Add, update, or delete products with a user-friendly interface.
-- **📂 Category Management**: Organize products into categories for better navigation.
-- **📑 Order Management**: View, process, and update orders efficiently.
-- **👥 User Management**: Manage user roles and access levels.
+### Admin Side
+- Admin login
+- Manage products (add, edit, delete)
+- View customer orders
+- Manage users
+
+---
 
 ## 🛠️ Tech Stack
+- **Frontend** → React.js  
+- **Backend** → Node.js + Express.js  
+- **Database** → MongoDB  
 
-- **MongoDB**: Robust NoSQL database for storing all application data.
-- **Express.js**: Fast and minimalistic backend framework.
-- **React.js**: Modern frontend library for building dynamic user interfaces.
+---
+
+## 📂 Project Structure
+
+```
+Mern-Ecommerce-master/
+│── frontend/        # Customer-facing React app
+│── backend/         # Node.js + Express API
+│── admin/           # Admin Dashboard (React)
+```
+
+---
+
+## ⚡ Installation & Setup
+
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [NPM](https://www.npmjs.com/) (Node Package Manager)
+
+**Cloning the Repository**
+
+```bash
+git clone https://github.com/MenathNDGD/MERN-Ecommerce.git
+```
+
+**Installation**
+
+Install the project dependencies using npm:
+
+```bash
+npm install
+```
+
+**Set Up Environment Variables**
+
+<details>
+<summary><code>/admin/.env</code></summary>
+
+```env
+VITE_BACKEND_URL = "http://localhost:4000"
+```
+
+</details>
+
+<details>
+<summary><code>/backend/.env</code></summary>
+
+```env
+MONGODB_URI =
+
+CLOUDINARY_API_KEY =
+
+CLOUDINARY_SECRET_KEY =
+
+CLOUDINARY_CLOUD_NAME =
+
+JWT_SECRET =
+
+ADMIN_EMAIL = "admin@trendify.com" #For testing only
+
+ADMIN_PASSWORD = "admin@123" #For testing only
+
+```
+
+</details>
+
+<details>
+<summary><code>/frontend/.env</code></summary>
+
+```env
+VITE_BACKEND_URL = "http://localhost:4000"
+```
+
+</details>
+
+Replace the placeholder values with your actual Appwrite credentials. add this
+
+1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/your-username/Mern-Ecommerce.git
+cd Mern-Ecommerce-master
+```
+
+2️⃣ Install Dependencies  
+```bash
+cd backend
+npm install
+npm start
+```
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+```bash
+cd admin
+npm install
+npm run dev
+```
+
+---
+
+## 👨‍💻 Team Members
+
+- **Shreya Das** – Brainware University  
+- **Krishan Mohan Singh** – Brainware University  
+- **Anirban Mondal** – Brainware University  
+- **Riya Kumari** – CEMK  
+- **Arzoo Aftab** – BBIT
+
+---- **React.js**: Modern frontend library for building dynamic user interfaces.
 - **Node.js**: JavaScript runtime environment for running the backend.
 - **Stripe**: Integrated payment gateway for processing transactions.
 - **JWT**: JSON Web Tokens for secure user sessions.
@@ -95,57 +218,6 @@ ADMIN_EMAIL = "admin@trendify.com" #For testing only
 ADMIN_PASSWORD = "admin@123" #For testing only
 
 ```
-
-</details>
-
-<details>
-<summary><code>/frontend/.env</code></summary>
-
-```env
-VITE_BACKEND_URL = "http://localhost:4000"
-```
-
-</details>
-
-Replace the placeholder values with your actual Appwrite credentials.
-
-**Running the Project**
-
-**Admin Dashboard Running On:**
-
-```bash
-cd admin
-```
-
-```bash
-npm run dev
-```
-
-**Backend Running On:**
-
-```bash
-cd backend
-```
-
-```bash
-npm run start
-```
-
-**Frontend Running On:**
-
-```bash
-cd frontend
-```
-
-```bash
-npm run dev
-```
-
-Open [http://localhost:5174](http://localhost:5174) in your browser to view the admin dashboard.
-
-Open [http://localhost:4000](http://localhost:4000) in your browser to run the backend.
-
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the frontend project.
 
 ##  Team Members
 
