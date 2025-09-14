@@ -128,7 +128,7 @@ cd backend
 ```
 
 ```bash
-npm run server
+npm run start
 ```
 
 **Frontend Running On:**
@@ -143,6 +143,14 @@ npm run dev
 
 Open [http://localhost:5174](http://localhost:5174) in your browser to view the admin dashboard.
 
-Open [http://localhost:400](http://localhost:400) in your browser to run the backend.
+Open [http://localhost:4000](http://localhost:4000) in your browser to run the backend.
 
 Open [http://localhost:5173](http://localhost:5173) in your browser to view the frontend project.
+
+##  Team Members
+
+Shreya Das – Brainware University<br>
+Krishan Mohan Singh – Brainware University<br>
+Anirban Mondal – Brainware University<br>
+Riya Kumari – CEMK<br>
+Arzoo Aftab – BBIT
